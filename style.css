@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+.kontainer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgba(52, 25, 25, 0.2);
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.boxcer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 1580px;
+    margin: 0px auto;
+    margin-top: 134px;
+    margin-bottom: 39px;
+}
+
+.coin {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.p {
+    font-family: Inter;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.titl {
+    height: 156px;
+    opacity: 1;
+    border-width: 1px;
+    background-color: gray;
+    border: 1px solid gold;
+
+}
+
+header {
+    border-bottom: 1px solid #BCAAAA;
+    box-shadow: 0px 5px 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+
+
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+
+h5 {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+
+header a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #BCAAAA;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    margin: 8px;
+    filter: grayscale(100%);
+    text-decoration: none;
+        transition: 0,4s;
+}
+
+
+header a:hover {
+    color: #EF400F;
+    border-bottom: 3px solid #EF400F;
+
+    filter: grayscale(0%);
+
+}
+
+
+header button {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #EF400F;
+    background-color: #FFFFFF;
+    border: 3px solid #EF400F;
+    border-radius: 20px;
+    padding: 16px 17px;
+    margin-left: 90px;
+    margin-right: 51px;
+        transition: 0,4s;
+
+}
+
+header button:hover {
+    background-color: #EF400F;
+    color: #FFFFFF;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0D0C5C;
+
+}
+
+input {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 386px;
+    height: 63px;
+    border-radius: 20px;
+    padding-left: 18px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+main button {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 116px;
+    height: 63px;
+    border-radius: 20px;
+
+    background-color: #0D0D5B;
+    color: #FFFFFF;
+
+}
+
+main a {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #EF400F;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    text-decoration: none;
+}
+
+main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+footer {
+    border-bottom: 1px solid #BCAAAA;
+    box-shadow: 0px 5px 10px;
+    position: sticky;
+    bottom: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    height: 65px;
+}
+
+
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h3 {
+    color: #000000;
+    font-family: Inter;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+footer a{
+color: #000000;
+font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+
+}
+
+
